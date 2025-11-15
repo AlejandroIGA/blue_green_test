@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Este en un endpoint creado en 1min pa la práctica')
+  res.send('Este en un endpoint creado en 1min para la práctica')
 })
 
 app.listen(port, () => {
