@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+
 const APP_COLOR = process.env.APP_COLOR || 'unknown';
 
 app.get('/', (req, res) => {
